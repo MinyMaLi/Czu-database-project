@@ -1,0 +1,10 @@
+INSERT INTO public."Premium"(premium_id,enabled,payment_Date) VALUES (1,'FALSE','1/18/2019');
+INSERT INTO public."Premium"(premium_id,enabled,payment_Date) VALUES (2,'TRUE','1/10/2012');
+INSERT INTO public."Premium"(premium_id,enabled,payment_Date) VALUES (3,'TRUE','2/14/2022');
+INSERT INTO public."Premium"(premium_id,enabled,payment_Date) VALUES (4,'FALSE','8/10/2019');
+INSERT INTO public."Premium"(premium_id,enabled,payment_Date) VALUES (5,'TRUE','5/20/2019');
+INSERT INTO public."Premium"(premium_id,enabled,payment_Date) VALUES (6,'FALSE','11/21/2014');
+INSERT INTO public."Premium"(premium_id,enabled,payment_Date) VALUES (7,'FALSE','2/20/2019');
+INSERT INTO public."Premium"(premium_id,enabled,payment_Date) VALUES (8,'TRUE','7/21/2018');
+INSERT INTO public."Premium"(premium_id,enabled,payment_Date) VALUES (9,'TRUE','7/7/2021');
+INSERT INTO public."Premium"(premium_id,enabled,payment_Date) VALUES (10,'TRUE','7/23/2015');

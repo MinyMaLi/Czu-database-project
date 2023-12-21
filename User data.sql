@@ -1,0 +1,10 @@
+INSERT INTO public."User"(user_id,username,email,password,premium_id,creation_date,subscribers) VALUES (1,'rruff0','dniles0@wordpress.org','tP4,N1C/''kC0',1,'5/16/2013',831);
+INSERT INTO public."User"(user_id,username,email,password,premium_id,creation_date,subscribers) VALUES (2,'lcansdell1','eminillo1@g.co','cW4@YTr`|}BRm',2,'10/29/2016',97);
+INSERT INTO public."User"(user_id,username,email,password,premium_id,creation_date,subscribers) VALUES (3,'gbilofsky2','ibellon2@dedecms.com','sU0!unbk',3,'2/1/2017',202);
+INSERT INTO public."User"(user_id,username,email,password,premium_id,creation_date,subscribers) VALUES (4,'bcushe3','cbirney3@addthis.com','yE3#hs)(=BAI',4,'1/26/2020',834);
+INSERT INTO public."User"(user_id,username,email,password,premium_id,creation_date,subscribers) VALUES (5,'dpolino4','mbockman4@tmall.com','jM3~L''U.p~>',5,'2/2/2016',863);
+INSERT INTO public."User"(user_id,username,email,password,premium_id,creation_date,subscribers) VALUES (6,'kbolles5','cfitzsymons5@domainmarket.com','fT4?E>U2\/J',6,'2/23/2023',534);
+INSERT INTO public."User"(user_id,username,email,password,premium_id,creation_date,subscribers) VALUES (7,'svizard6','mmcelory6@blogspot.com','fF2$#tHxKU!&1',7,'11/16/2012',257);
+INSERT INTO public."User"(user_id,username,email,password,premium_id,creation_date,subscribers) VALUES (8,'bmcgougan7','mlangley7@posterous.com','rW1_.oqcwLg3.',8,'4/9/2014',631);
+INSERT INTO public."User"(user_id,username,email,password,premium_id,creation_date,subscribers) VALUES (9,'bcardozo8','pjervoise8@mediafire.com','kO7''sv>&!_MiX<C#',9,'6/21/2011',858);
+INSERT INTO public."User"(user_id,username,email,password,premium_id,creation_date,subscribers) VALUES (10,'cattril9','sdunklee9@altervista.org','oF5}''VX&8(aC',10,'11/6/2013',21);

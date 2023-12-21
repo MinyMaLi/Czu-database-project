@@ -1,0 +1,9 @@
+INSERT INTO mytable(subscription_id,subscriber_id,subscribed_id,subscribtion_date) VALUES (1,1,6,'4/29/2016');
+INSERT INTO mytable(subscription_id,subscriber_id,subscribed_id,subscribtion_date) VALUES (2,2,6,'5/30/2012');
+INSERT INTO mytable(subscription_id,subscriber_id,subscribed_id,subscribtion_date) VALUES (3,3,6,'7/19/2018');
+INSERT INTO mytable(subscription_id,subscriber_id,subscribed_id,subscribtion_date) VALUES (4,4,1,'10/18/2020');
+INSERT INTO mytable(subscription_id,subscriber_id,subscribed_id,subscribtion_date) VALUES (5,5,1,'8/26/2018');
+INSERT INTO mytable(subscription_id,subscriber_id,subscribed_id,subscribtion_date) VALUES (6,1,3,'9/3/2012');
+INSERT INTO mytable(subscription_id,subscriber_id,subscribed_id,subscribtion_date) VALUES (7,1,4,'9/26/2019');
+INSERT INTO mytable(subscription_id,subscriber_id,subscribed_id,subscribtion_date) VALUES (8,1,9,'3/24/2015');
+INSERT INTO mytable(subscription_id,subscriber_id,subscribed_id,subscribtion_date) VALUES (9,1,8,'11/23/2022');
