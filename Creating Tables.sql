@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS public."Comment"
 (
-    commnet_id serial NOT NULL ,
+    comment_id serial NOT NULL ,
     video_id integer,
     short_id integer,
     user_id integer NOT NULL,
@@ -54,7 +54,6 @@ CREATE TABLE IF NOT EXISTS public."Short"
     short_id serial NOT NULL ,
     description_id integer,
     user_id integer,
-    comment_id integer,
     short_name character varying(255) 
     short_upload_date date,
     views integer,
@@ -144,15 +143,6 @@ ALTER TABLE IF EXISTS public."Video"
     ON DELETE NO ACTION
     NOT VALID;
 
-
-
-
-ALTER TABLE IF EXISTS public."Short"
-    ADD CONSTRAINT comment_id FOREIGN KEY (comment_id)
-    REFERENCES public."Comment" (comment_id) MATCH SIMPLE
-    ON UPDATE NO ACTION
-    ON DELETE NO ACTION
-    NOT VALID;
 
 
 ALTER TABLE IF EXISTS public."Short"
