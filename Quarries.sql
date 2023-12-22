@@ -53,4 +53,38 @@ FROM public."Comment" c
 JOIN public."User" u ON c.user_id = u.user_id
 WHERE c.video_id = 5;
 
---
+--Users who are using premium
+SELECT *
+FROM public."User" u
+JOIN public."Premium" p ON u.premium_id = p.premium_id
+WHERE u.premium_id IS NOT NULL
+AND p.enabled IS TRUE;
+
+--List of all Videos
+SELECT * FROM public."Video";
+
+--Amount of comments on videos
+SELECT video_id, COUNT(*) AS total_comments
+FROM public."Comment"
+GROUP BY video_id;
+
+--Amount of comments on Shorts
+SELECT short_id, COUNT(*) AS total_comments
+FROM public."Comment"
+GROUP BY short_id;
+
+--Latest uploaded video
+SELECT *
+FROM public."Video"
+ORDER BY upload_date DESC
+LIMIT 1;
+
+--Videos with more then 1000 views
+SELECT *
+FROM public."Video"
+WHERE views > 1000;
+
+--Average view length
+SELECT AVG(length) AS average_length
+FROM public."View";
+
