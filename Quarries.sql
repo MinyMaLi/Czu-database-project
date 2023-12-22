@@ -1,5 +1,4 @@
 -- Get's comments made on videos
-
 SELECT c.comment_text, u.username, v.video_name
 FROM public."Comment" c
 JOIN public."User" u ON c.user_id = u.user_id
@@ -41,3 +40,17 @@ JOIN public."Comment" USING (user_id);
 SELECT *
 FROM public."User" u
 RIGHT JOIN public."Comment" c ON u.user_id = c.user_id;
+
+--List of videos uploaded by a specific user
+SELECT v.*, u.username
+FROM public."Video" v
+JOIN public."User" u ON v.user_id = u.user_id
+WHERE v.user_id = 3;
+
+--Comments on a specific Video
+SELECT c.*, u.username
+FROM public."Comment" c
+JOIN public."User" u ON c.user_id = u.user_id
+WHERE c.video_id = 5;
+
+--
